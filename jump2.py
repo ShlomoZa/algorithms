@@ -29,6 +29,7 @@ def printStairPathsUtil(ansList, i, n):
         print("cost is :" + str(cost))
         if cost < mincost:
             mincost = cost
+            minpaths = 0
         if cost == mincost:
             minpaths = minpaths + 1
         cost = 0
